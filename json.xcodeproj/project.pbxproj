@@ -20,6 +20,7 @@
 		3F4B15CC2BAECCF40005AC8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4B15B42BAEAEC00005AC8D /* Cocoa.framework */; };
 		3F4B15CD2BAECD130005AC8D /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4B15C62BAECCC50005AC8D /* XcodeKit.framework */; };
 		3F4B15CE2BAECD130005AC8D /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4B15C62BAECCC50005AC8D /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F4B15D32BAEF1780005AC8D /* CommandErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B15D22BAEF1780005AC8D /* CommandErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		3F4B15BD2BAEAEC00005AC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F4B15BE2BAEAEC00005AC8D /* x_json.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = x_json.entitlements; sourceTree = "<group>"; };
 		3F4B15C62BAECCC50005AC8D /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F4B15D22BAEF1780005AC8D /* CommandErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			children = (
 				3F4B15B92BAEAEC00005AC8D /* SourceEditorExtension.swift */,
 				3F4B15BB2BAEAEC00005AC8D /* SourceEditorCommand.swift */,
+				3F4B15D22BAEF1780005AC8D /* CommandErrors.swift */,
 				3F4B15BD2BAEAEC00005AC8D /* Info.plist */,
 				3F4B15BE2BAEAEC00005AC8D /* x_json.entitlements */,
 			);
@@ -396,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4B15BA2BAEAEC00005AC8D /* SourceEditorExtension.swift in Sources */,
+				3F4B15D32BAEF1780005AC8D /* CommandErrors.swift in Sources */,
 				3F4B15BC2BAEAEC00005AC8D /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
